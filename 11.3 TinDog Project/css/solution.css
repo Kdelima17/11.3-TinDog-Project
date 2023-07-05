@@ -1,0 +1,66 @@
+.gradient-background {
+  background: linear-gradient(300deg, #014495, #0FC9F2);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 100px;
+}
+
+.nav-pills{
+  --bs-nav-pills-link-active-bg: #014495;
+  --bs-nav-link-color: #014495;
+  --bs-nav-link-hover-color: #014495;
+}
+
+.active{
+  margin-left: 1vh;
+}
+
+#title{
+  height: 100%;
+}
+
+.btn-outline-dark{
+  color: #014495;
+  border-color: #014495;
+}
+
+.btn-outline-dark:hover{
+  background-color: #014495!important;
+}
+
+h1, h2, h3, h4, h5, h6, li, p{
+  color: #014495 !important;
+}
+
+.spacer{
+  color: #014495 !important;
+}
+
+.text-body-secondary{
+  color:#0FC9F2 !important;
+}
+.whiter{
+  color: white !important;
+}
